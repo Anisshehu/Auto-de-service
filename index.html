@@ -5,8 +5,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Kraft Auto Service</title>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
-<style>
 
+<style>
 *{
     margin:0;
     padding:0;
@@ -21,9 +21,9 @@ body{
 }
 
 header{
-    padding:80px 20px;
+    padding:100px 20px;
     text-align:center;
-    background:linear-gradient(135deg,#1e293b,#0f172a);
+    background:linear-gradient(135deg,#0f172a,#1e293b);
 }
 
 header h1{
@@ -34,17 +34,17 @@ header h1{
 header p{
     font-size:18px;
     opacity:0.8;
-    margin-bottom:25px;
+    margin-bottom:30px;
 }
 
 .btn{
     display:inline-block;
-    padding:12px 25px;
+    padding:14px 28px;
     background:#00d4ff;
     color:black;
     text-decoration:none;
     font-weight:600;
-    border-radius:5px;
+    border-radius:6px;
     transition:0.3s;
 }
 
@@ -53,7 +53,7 @@ header p{
 }
 
 section{
-    padding:60px 20px;
+    padding:70px 20px;
     max-width:1100px;
     margin:auto;
 }
@@ -67,19 +67,19 @@ h2{
 .services{
     display:grid;
     grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
-    gap:20px;
+    gap:25px;
 }
 
 .card{
     background:#1e293b;
-    padding:25px;
-    border-radius:8px;
+    padding:30px;
+    border-radius:10px;
     text-align:center;
     transition:0.3s;
 }
 
 .card:hover{
-    transform:translateY(-5px);
+    transform:translateY(-8px);
     background:#334155;
 }
 
@@ -88,6 +88,64 @@ h2{
     max-width:800px;
     margin:auto;
 }
+
+.contact{
+    text-align:center;
+}
+
+footer{
+    text-align:center;
+    padding:25px;
+    background:#1e293b;
+    margin-top:50px;
+    font-size:14px;
+    opacity:0.7;
+}
+
+.whatsapp{
+    position:fixed;
+    bottom:20px;
+    right:20px;
+    background:#25D366;
+    color:white;
+    padding:16px;
+    border-radius:50%;
+    text-decoration:none;
+    font-size:20px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>Kraft Auto Service</h1>
+    <p>Ihre zuverlässige Autowerkstatt in Berlin – Schnell, Professionell & Transparent</p>
+    <a href="#kontakt" class="btn">Jetzt Termin vereinbaren & Angebot erhalten</a>
+</header>
+
+<section>
+    <h2>Unsere Leistungen</h2>
+    <div class="services">
+        <div class="card">Inspektion & Wartung</div>
+        <div class="card">Ölwechsel</div>
+        <div class="card">Bremsenservice</div>
+        <div class="card">Reifenwechsel</div>
+        <div class="card">Diagnose & Reparatur</div>
+        <div class="card">Klimaservice</div>
+    </div>
+</section>
+
+<section class="about">
+    <h2>Über Uns</h2>
+    <p>
+    Seit über 10 Jahren bieten wir professionellen und zuverlässigen Autoservice 
+    für Privat- und Geschäftskunden in Berlin. 
+    Unser Ziel ist es, Ihr Fahrzeug schnell, sicher und zu fairen Preisen 
+    wieder auf die Straße zu bringen.
+    </p>
+</section>
+
 <section>
     <h2>Kundenmeinungen</h2>
     <div class="services">
@@ -99,85 +157,36 @@ h2{
         </div>
         <div class="card">
             ⭐⭐⭐⭐⭐<br><br>
-            "Schnelle Reparatur und faire Preise."
-            <br>– Michael T.
+            "Schnelle Reparatur und faire Preise. 
+            Sehr empfehlenswert!"<br>
+            – Michael T.
         </div>
     </div>
-</section>
-.contact{
-    text-align:center;
-}
-<br><br>
-<iframe 
-src="https://www.google.com/maps?q=Berlin&output=embed" 
-width="100%" 
-height="300" 
-style="border:0; border-radius:8px;" 
-allowfullscreen="" 
-loading="lazy">
-</iframe>
-footer{
-    text-align:center;
-    padding:20px;
-    background:#1e293b;
-    margin-top:40px;
-    font-size:14px;
-    opacity:0.7;
-}
-
-.whatsapp{
-    position:fixed;
-    bottom:20px;
-    right:20px;
-    background:#25D366;
-    color:white;
-    padding:15px;
-    border-radius:50%;
-    text-decoration:none;
-    font-size:20px;
-}
-
-</style>
-</head>
-<body>
-
-<header>
-    <h1>Kraft Auto Service</h1>
-    <p>Ihre zuverlässige Autowerkstatt in Berlin</p>
-    <a href="#kontakt" class="btn">Jetzt Termin vereinbaren</a>
-</header>
-
-<section>
-    <h2>Unsere Leistungen</h2>
-    <div class="services">
-        <div class="card">Inspektion & Wartung</div>
-        <div class="card">Ölwechsel</div>
-        <div class="card">Bremsenservice</div>
-        <div class="card">Reifenwechsel</div>
-        <div class="card">Diagnose & Reparatur</div>
-    </div>
-</section>
-
-<section class="about">
-    <h2>Über Uns</h2>
-    <p>
-    Seit über 10 Jahren bieten wir professionellen und zuverlässigen Autoservice.
-    Unser Ziel ist es, Ihr Fahrzeug schnell und sicher wieder auf die Straße zu bringen.
-    </p>
 </section>
 
 <section id="kontakt" class="contact">
     <h2>Kontakt</h2>
     <p>Musterstraße 12, 10115 Berlin</p>
-   <p>Telefon: <a href="tel:+49123456789" style="color:#00d4ff;">+49 123 456789</a></p>
-<p>Email: <a href="mailto:info@kraftautoservice.de" style="color:#00d4ff;">info@kraftautoservice.de</a></p>
-    
+    <p>Telefon: <a href="tel:+49123456789" style="color:#00d4ff;">+49 123 456789</a></p>
+    <p>Email: <a href="mailto:info@kraftautoservice.de" style="color:#00d4ff;">info@kraftautoservice.de</a></p>
+
+    <br><br>
+
+    <iframe 
+    src="https://www.google.com/maps?q=Berlin&output=embed"
+    width="100%" 
+    height="300"
+    style="border:0; border-radius:10px;"
+    allowfullscreen=""
+    loading="lazy">
+    </iframe>
+</section>
 
 <footer>
     © 2026 Kraft Auto Service – Alle Rechte vorbehalten
 </footer>
 
-<a href="#kontakt" class="btn">Jetzt Termin vereinbaren & Angebot erhalten</a>
+<a href="https://wa.me/49123456789" class="whatsapp">💬</a>
 
 </body>
 </html>
